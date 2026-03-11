@@ -1,5 +1,4 @@
 import { TabType } from '../models/Index';
-
 @Entry
 @Component
 struct Index {
@@ -36,7 +35,5 @@ struct Index {
         .fontColor(this.isActive == item.name ? '#e4608b' : '#6da8a5')
     }
   }
-
   @State isActive: string = 'recommend';
-
 }
