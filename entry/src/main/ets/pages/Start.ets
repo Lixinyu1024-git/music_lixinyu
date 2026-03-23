@@ -31,7 +31,6 @@ struct Start {
           // 清除定时器后再跳转
           clearTimeout(this.timerId);
           router.replaceUrl({ url: 'pages/Index' }).catch(() => {
-            // TODO: Implement error handling.
           });
         })
     }
