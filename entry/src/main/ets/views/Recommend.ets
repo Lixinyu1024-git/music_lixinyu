@@ -1,4 +1,4 @@
-import { getDailyRecommend, getRecommendList, getSwiper} from "../apis/Index";
+import { getDailyRecommend, getRecommendList, getSwiper } from "../apis/Index";
 import { DailyRecommendType,RecommendListType } from "../models/Index";
 
 
