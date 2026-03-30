@@ -1,7 +1,6 @@
 import { router } from '@kit.ArkUI';
 import { SAFE_TOP } from '../constants/Index';
 
-
 @Entry
 @Component
 struct Start {
